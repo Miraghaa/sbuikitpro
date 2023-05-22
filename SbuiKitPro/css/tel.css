@@ -1,0 +1,288 @@
+@media(max-width:576px) {
+    .header-all{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        padding: 0 2rem;
+    }
+    .header-all .logo a{
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: metropolisbold;
+        color: #0061f2;
+        font-size: 19.2px;
+        font-weight: bold;
+        align-items: center;
+    }
+    nav a{
+        font-family: metropolismedium;
+        cursor: pointer;
+        color: #0000008c;
+        font-size: 16px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    nav i{
+        font-size: 12px;
+       
+    }
+    nav .button{
+        padding: 12px 18px;
+        background-color: #0061f2;
+        color: #fff;
+        border-radius: 5px;
+    }
+    nav .button i{
+        margin-left: 5px;
+        align-items: center;
+    }
+    .head{
+        text-align: center;
+        padding-top: 12rem;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    } 
+    .head .headwrite{
+        margin-top: 7rem;
+    }
+    .head .headpicture { 
+    width: 90%;
+    margin-top: 50px;
+    }
+    .head .headwrite h1{
+        font-family: metropolisregular;
+        color: #363d47;
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    
+    .head .headwrite p{
+        font-family: metropolisregular;
+        color: #69707a;
+        font-size: 18.4px;
+        line-height: 1.4;
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .head .headwrite .view{
+        font-family: metropolismedium;
+        color: #fff;
+        font-size: 16px;
+        background-color: #0061f2;
+        margin: 0px 16px 0px 0px;
+        padding: 18px 24px;
+        border-radius: 10px;
+    }
+    .head .headwrite .document{
+        font-family: metropolismedium;
+        color: #0061f2;
+        font-size: 16px;
+        background-color: #dae7fb;
+        padding: 18px 24px;
+        border-radius: 10px;
+    }
+  
+  
+    .demo-all{
+    text-align: center;
+    width: 100%;
+        margin-top: -5px;
+        padding-top: 5rem;
+        background-color: #f2f6fc;
+  }
+  .crooked svg{
+    color: #f2f6fc;
+}
+.crooked2 svg{
+    color: #fff;
+    margin: 0px 0px -4px 0px ;
+}
+  .demowrite{
+    width: 100%;
+  }
+  .demobox{
+    padding: 0 20px;
+  }
+  .demowrite span{
+    display: inline-block;
+    font-family: metropolismedium;
+   color: #0061f2;
+   font-size: 12px;
+   background-color: #dae7fb;
+   margin-bottom: 16px;
+   border-radius: 10px;
+}
+.demowrite h2{
+    font-family: metropolisregular;
+    color: #363d47;
+    font-size: 22.4px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.demowrite p{
+    font-family: metropolisregular;
+    font-size: 15px;
+    color: #69707a;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.demobox .demoboxwrite h6{
+    font-family: metropolisregular;
+    color: #363d47;
+    font-size: 16px;
+    margin: 30px 0 30px;
+    letter-spacing: 1px;
+
+}
+  .demoboxpicture{
+    width: 95%;
+  }
+  .demoboxpicture img{
+    width: 100%;
+  }
+  .pages-all{
+    text-align: center;
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .pageswrite span{
+    display: inline-block;
+    font-family: metropolismedium;
+   color: #0061f2;
+   font-size: 12px;
+   background-color: #dae7fb;
+   padding: 6px 12px;
+   margin-bottom: 16px;
+   border-radius: 10px;
+}
+.pageswrite h2{
+    font-family: metropolisregular;
+    color: #363d47;
+    font-size: 22.4px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.pageswrite p{
+    font-family: metropolisregular;
+    font-size: 17.6px;
+    color: #69707a;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.pagesbox-all{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+}
+.pagesbox{
+    margin-top: 10px;
+}
+.pagesbox i{
+    color: gray;
+    font-size: 11px;
+}
+
+.pagesbox .pagesnav a{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 14px;
+    font-family: metropolisregular;
+    padding: 12px 20px;
+    color: #212832;
+    background-color: #fff;
+    border: 1px solid #e7e9ec;
+    box-shadow: 0 .15rem 1.75rem #21283226;
+    outline-color: #0061f2;
+
+}
+.pagesbox .pagesnav a:hover{
+    background-color: #efedff;
+}
+.pagesnav .starta{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pagesnav .enda{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 3rem;
+}
+.pagesbox h6{
+    font-family: metropolisregular;
+    font-size: 16px;
+    color: #363d47;
+    margin-bottom: 16px;
+}
+.documentend{
+    padding: 5rem 2rem 5rem;
+    text-align: center;
+}
+.documentendwrite1{
+    text-align: center;
+}
+.documentendwrite1 h2{
+    color: #363d47;
+    font-size: 22.4px;
+    font-family: metropolisregular;
+    margin-bottom: 10px;
+}
+.documentendwrite1 p{
+    color: #69707a;
+    font-size: 17.6px;
+    font-family: metropolisregular;
+    margin-bottom: 20px;
+}
+.documentendwrite2{
+    padding: 0 0rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.documentendbox{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.documentendbox h2{
+    color: #c5ccd6;
+    font-size: 80px;
+    font-family: metropolismedium;
+    margin-bottom: 5px;
+}
+.documentendbox .p1{
+    color: #363d47;
+    font-size: 17.6px;
+    font-family: metropolisregular;
+    margin-bottom: 8px;
+}
+.documentendbox .p2{
+ color: #69707a;
+ font-size: 16px;
+ font-family: metropolisregular;
+ margin-bottom: 16px;
+ line-height: 1.5;
+}
+.documentendfoot a{
+    color: #fff;
+    font-size: 14px;
+    font-family: metropolisregular;
+    background-color: #0061f2;
+    padding: 16px 22px;
+    border-radius: 10px;
+}
+.documentendfoot{
+    margin: 3rem 0;
+}
+}
